@@ -96,6 +96,7 @@ footer {
 }
 
 /* Media queries for tablets and larger (768px and more) */
+
 @media screen and (min-width: 768px) {
     /* Header */
     nav {
@@ -123,5 +124,13 @@ footer {
     main {
         /* Push main content down to accomodate for larger screens */
         margin-top: 79px;
+    }
+}
+
+/* Media queries for tablets and larger (992px and more) */
+
+@media screen and (min-width: 992px) {
+    #menu a:hover {
+        border-bottom: 1px solid #3a3a3a;
     }
 }
