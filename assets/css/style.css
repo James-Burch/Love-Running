@@ -113,7 +113,10 @@ main {
 }
 /* Adding the image */
 #circle-cover-bg {
-
+height: 90vw;
+width: 90vw;
+position: relative;
+background: url("../images/reasons-image.webp") no-repeat center center/90vw
 }
 
 /* Hero section */
