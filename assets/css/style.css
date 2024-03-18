@@ -89,6 +89,33 @@ main {
     flex: 1 0 auto;
     margin-top: 47px;
 }
+/* Reasons Section */
+#reasons {
+    margin: 20px auto;
+    width: 90%;
+}
+#reasons h2 {
+    font-size: 280%;
+    text-align: center;
+    padding-bottom: 20px;
+}
+#benefits p {
+    padding: 0 20px;
+}
+#benefits-physical > div,
+#benefits-mental > div {
+    line-height: 20px;
+    margin-bottom: 20px;
+}
+#benefits hr {
+    border-top: 1px solid #3a3a3a;
+    margin: 5px 0;
+}
+/* Adding the image */
+#circle-cover-bg {
+
+}
+
 /* Hero section */
 #hero {
     height: 600px;
@@ -159,16 +186,7 @@ main {
         width: 300px;
         right: 50px;
     }
-    /* Reasons Section */
-    #reasons {
-        margin: 20px auto;
-        width: 90%;
-    }
-    #reasons h2 {
-        font-size: 280%;
-    }
 }
-
 /* Media queries for tablets and larger (992px and more) */
 
 @media screen and (min-width: 992px) {
