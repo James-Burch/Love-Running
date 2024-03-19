@@ -206,7 +206,7 @@ main {
 
 main {
     display: flex;
-    flex: column;
+    flex-direction: column;
 }
 
 #signup {
