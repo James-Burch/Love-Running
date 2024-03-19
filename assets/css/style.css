@@ -300,6 +300,26 @@ main {
     }
 }
 
+/* Signup page */
+
+#signup {
+    background-image: url("../images/signup-image.webp");
+    background-size: cover;
+    background-position: 75%;
+    flex-grow: 1;
+}
+#signup h2 {
+    color: #fafafa;
+}
+#signup-form {
+    color: #ffffff;
+    background-color: rgba(60, 60, 60, 0.6);
+}
+main {
+    display: flex;
+    flex: column;
+}
+
 @media screen and (min-width: 1200px) {
 
     /* Reasons section */
